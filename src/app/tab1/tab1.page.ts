@@ -1,3 +1,4 @@
+import { debugOutputAstAsTypeScript } from '@angular/compiler';
 import { Component } from '@angular/core';
 
 @Component({
@@ -8,5 +9,18 @@ import { Component } from '@angular/core';
 export class Tab1Page {
 
   constructor() {}
+
+  ngOnInit() {
+    let numero = 10;
+
+    numero = 20;
+
+    numero = numero + 10;
+
+    numero = 0;
+
+    console.log(numero);
+  }
+
 
 }
